@@ -75,10 +75,10 @@ int main()
                     break;
             case 2: Obj.Bsearch(Obj.a,Obj.key,Obj.n);
                     break;
-            case 3: printf("\nExiting...");
+            case 3: cout<<"\nExiting...";
                     exit(0);
                     break;
-            default:printf("\nEnter valid choice!");
+            default:cout<<"\nEnter valid choice!";
                     break;
         }
     }
